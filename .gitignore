@@ -27,6 +27,11 @@ GLFW.xcodeproj
 
 # Makefile generator clutter
 Makefile
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+cmake_install.cmake
+cmake_uninstall.cmake
 
 # Ninja generator clutter
 build.ninja
@@ -101,3 +106,6 @@ tests/triangle-vulkan
 tests/window
 tests/windows
 
+# Dalvik-specific
+bin
+bin-int
